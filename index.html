@@ -21,7 +21,6 @@
       .gallery {
         position: relative;
         display: flex;
-        justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
         padding: 40px;
@@ -40,6 +39,11 @@
           .gallery img {
               width: 130px;
               margin: 10px;
+          }
+      }
+      @media (orientation:portrait){
+          .gallery{
+            justify-content: center;
           }
       }
 
